@@ -1,7 +1,38 @@
-# RocketPrompt 🚀
+# Rocket 🚀
 
-Just a simple Bash prompt!
+Just a simple prompt!
+This is a simple bash script to style the bash prompt.
 
-## Installation
 
-As of now there are 2 prompts Plain, Emoji 
+## Installation 📃
+
+As of now there are 2 variants Plain and Emoji
+
+| Options | Decs         |
+| ------- | ------------ |
+| p       | Plain Prompt |
+| e       | Emoji Prompt |
+
+Run
+
+```bash
+./install.sh e
+```
+
+### The plain prompt 👇
+
+![](assets/Plain-%20no%20addons%20.png)
+
+### The emoji prompt 👇
+
+![](assets/Emoji.png)
+
+
+## Features 💫 
+
+- Git branch tracking
+- Exit status
+
+and many more on its way 🔥
+
+<p align="center">✌️ Alpha build</p>
