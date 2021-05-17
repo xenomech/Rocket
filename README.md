@@ -5,6 +5,7 @@ This is a simple bash script to style the bash prompt.
 
 
 ## Installation 📃
+_This is an alpha build install at your own risk._
 
 As of now there are 2 variants Plain and Emoji
 
