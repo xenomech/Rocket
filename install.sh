@@ -14,13 +14,16 @@ add_addon_git_plain() {
 }
 
 add_addon_status() {
-     cat ./addons/exitstat >>~/.bashrc
+    cat ./addons/exitstat >>~/.bashrc
 }
 
 add_addon_status_plain() {
-      cat ./addons/exitstat_plain >>~/.bashrc
+    cat ./addons/exitstat_plain >>~/.bashrc
 }
 
+add_alias() {
+    cat ./addons/alias >>~./bashrc
+}
 if [[ $lock -eq "y" ]]; then
     echo "backing up the current .bashrc as .bashrc.bak"
     cp ~/.bashrc ~/.bashrc.bak

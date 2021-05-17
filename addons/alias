@@ -1,0 +1,6 @@
+alias ll="ls -l"
+alias la="ls -a"
+alias gc="git commit -m"
+alias gp="git push origin"
+alias gs="git status"
+alias gaa="git add ."
