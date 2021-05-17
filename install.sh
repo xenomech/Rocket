@@ -38,7 +38,7 @@ if [[ $lock -eq "y" ]]; then
     then
         {
             add_addon_git
-            new_prompt='\n📅 \d - 🕡 \@ \n👨‍ \u @ 🛰️ \h : 🌏 \W $(gitbranch) $(exitstatus) \n⚡ ' # Emoji - no addons
+            new_prompt='\n 📅 \d - 🕡 \@ \n 👨‍ \u @ 🛰️ \h : 📂 \W  ) $(exitstatus) $(gitbranch)  \n ⚡ ' # Emoji - no addons
             add_addon_status
         }
     fi

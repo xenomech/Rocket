@@ -1,3 +1,5 @@
+alias F="false"
+alias T="true"
 alias ll="ls -l"
 alias la="ls -a"
 alias gc="git commit -m"
